@@ -9,11 +9,11 @@ void setup() {
   size(900, 900);
   background(0);
   for (int i = 0; i < 60; i++) {
-    rectSecs[i] = new ThinkerClocker(650, i * 15, 60, 10, i + 1);
-    rectMins[i] = new ThinkerClocker(350, i * 15, 60, 10, i + 1);
+    rectSecs[i] = new ThinkerClocker(650, i * 15, 20, 30, i + 1);
+    rectMins[i] = new ThinkerClocker(350, i * 15, 20, 30, i + 1);
   }
   for (int i = 0; i < 24; i++) {
-    rectHours[i] = new ThinkerClocker(50, i * 30, 60, 20, i + 1);
+    rectHours[i] = new ThinkerClocker(50, i * 30, 20, 50, i + 1);
   }
 }
 
